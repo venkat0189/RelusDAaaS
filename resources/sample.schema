@@ -1,0 +1,52 @@
+record
+  {final_delim='▒', delim='▒',quote=none}
+(
+  BAEXT_MAIN_CODE:string[1];
+  BAEXT_EXT_DATE:string[8];
+  DBRO_PLAN_NUM:string[6];
+  DBRO_PLAN_SEQ:int64 $default=unsigned width=4$;
+  DBRO_PART_NUM:int64 $default='',unsigned, width=10$;
+  DBRO_PART_SUB_PLAN:string[6];
+  DBRO_PART_EXT:string[2];
+  DBRO_TRADE_DATE:string[8];
+  DBRO_RUN_DATE:string[8];
+  DBRO_RUN_TIME:int64 {default='',unsigned, width=5};
+  DBRO_DB_SEQ:int64 {default='',unsigned, width=4};
+  DBRO_SEQ:int64 {default='',unsigned, width=4};
+  DBRO_REC_TYPE:string[2];
+  DBRO_PAYEE_NUM:int64 {default='',unsigned, width=4};
+  DBRO_PLAN_LVL_APAY:string[1];
+  DBRO_TYPE:string[1];
+  DBRO_NAME_1:string[30];
+  DBRO_NAME_2:string[30];
+  DBRO_ADDR_1:string[40];
+  DBRO_ADDR_2:string[40];
+ DBRO_ADDR_3:string[40];
+  DBRO_ADDR_4_CITY:string[28];
+  DBRO_ADDR_4_STATE:string[3];
+  DBRO_ADDR_4_ZIP:string[9];
+  DBRO_1099_DIST_CODE_2:string[1];
+  DBRO_1099_DIST_CODE_1:string[1];
+  DBRO_CHECK_NUMBER:int64 {default='',unsigned, width=10};
+  DBRO_VAL:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_CASH:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_SHRS:decimal[13,4] {default='', unsigned, width=11};
+  DBRO_VAL_SHRS:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_COST_SHRS:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_TAX_RPT_IND:string[1];
+  DBRO_AFTERTAX_AMT:decimal[11,2] {default='',unsigned,width=13};
+  DBRO_AFTERTAX_PRE87_EE:decimal[11,2] {default='',unsigned,width=13};
+  DBRO_AFTERTAX_POST86_EE:decimal[11,2] {default='',unsigned,width=13};
+  DBRO_POST_NUM:string[max=6];
+  DBRO_WIRE_IND:string[1];
+  DBRO_WIRE_TRANSIT_ROUTING:string[20];
+  DBRO_WIRE_ACCOUNT_NO:string[20];
+  DBRO_WIRE_DEST_NAME:string[30];
+  DBRO_WIRE_DEST_ACCOUNT_NO:string[20];
+  DBRO_WIRE_DEST_TRANSIT_NO:string[20];
+  DBRO_WIRE_DEST_COMMENT_1:string[30];
+  DBRO_WIRE_DEST_COMMENT_2:string[30];
+  DBRO_ROTH_CNTRB:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_ROTH_AMT:decimal[11,2] {default='', unsigned, width=12};
+  DBRO_ROTH_LOSS:decimal[11,2] {default='', unsigned, width=12};
+)
