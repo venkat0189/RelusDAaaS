@@ -1,4 +1,4 @@
-package com.reluscloud.dna.DAaaSUtil
+package com.reluscloud.dna.RelusDAaaS.DAaaSUtil
 
 object SchemaService {
 
