@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.run;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

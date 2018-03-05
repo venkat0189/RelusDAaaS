@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.service;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,11 +10,6 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.google.gson.Gson;
-import com.tiaa.esp.hadoop.model.schema.DataSchema;
-import com.tiaa.esp.hadoop.model.schema.DateSchema;
-import com.tiaa.esp.hadoop.model.schema.DecimalSchema;
-import com.tiaa.esp.hadoop.model.schema.IntegerSchema;
-import com.tiaa.esp.hadoop.model.schema.StringSchema;
 
 public class SchemaService {
 	

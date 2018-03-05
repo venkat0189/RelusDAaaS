@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.model.schema;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

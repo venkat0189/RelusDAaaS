@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.model.schema;
 
 import java.util.Collections;
 import java.util.HashMap;

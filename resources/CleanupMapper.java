@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.run;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,9 +16,6 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import com.tiaa.esp.hadoop.model.schema.DataSchema;
-import com.tiaa.esp.hadoop.service.SchemaService;
-import com.tiaa.esp.hadoop.service.ValidationService;
 
 public class CleanupMapper extends Mapper<LongWritable, Text, NullWritable, Text> {
 	

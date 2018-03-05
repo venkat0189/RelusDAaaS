@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.model.schema;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,3 @@
-package com.tiaa.esp.hadoop.service;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -15,12 +14,6 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.tiaa.esp.hadoop.model.OutputLog;
-import com.tiaa.esp.hadoop.model.schema.DataSchema;
-import com.tiaa.esp.hadoop.model.schema.DateSchema;
-import com.tiaa.esp.hadoop.model.schema.DecimalSchema;
-import com.tiaa.esp.hadoop.model.schema.IntegerSchema;
-import com.tiaa.esp.hadoop.model.schema.StringSchema;
 
 public class ValidationService {
 
