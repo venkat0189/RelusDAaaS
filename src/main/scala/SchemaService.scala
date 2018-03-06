@@ -4,7 +4,7 @@ class SchemaService(val schemaConfigLocation: String) {
 
   var TABLENAME = ""
   var INPUTFOLDER = ""
-  var COLUMNSCHEMA = List[ColumnSchema]
+  var COLUMNSCHEMA = List[ColumnSchema]()
 
 
   def parseSchemaFile {
