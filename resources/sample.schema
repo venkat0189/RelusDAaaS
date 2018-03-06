@@ -1,5 +1,5 @@
 record
-  {final_delim='▒', delim='▒',quote=none}
+  {final_delim='l', delim='k',quote=none}
 (
   BAEXT_MAIN_CODE:string[1];
   BAEXT_EXT_DATE:string[8];
