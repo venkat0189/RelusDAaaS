@@ -21,7 +21,7 @@ record
   DBRO_NAME_2:string[30];
   DBRO_ADDR_1:string[40];
   DBRO_ADDR_2:string[40];
- DBRO_ADDR_3:string[40];
+  DBRO_ADDR_3:string[40];
   DBRO_ADDR_4_CITY:string[28];
   DBRO_ADDR_4_STATE:string[3];
   DBRO_ADDR_4_ZIP:string[9];
