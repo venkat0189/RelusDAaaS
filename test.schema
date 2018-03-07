@@ -1,7 +1,7 @@
 tableName: sampletable.csv
 inputFolder: s3://relus-dataaccelerator/input/sampletable/
 outputFolder: s3://relus-dataaccelerator/output/sampletable/
-delimiter: ','
+delimiter: ,
 columns:
 (
 ID: int
