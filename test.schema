@@ -1,0 +1,11 @@
+tableName: sampletable.csv
+inputFolder: s3://relus-dataaccelerator/input/sampletable/
+outputFolder: s3://relus-dataaccelerator/output/sampletable/
+delimiter: ','
+columns:
+(
+ID: int
+VENUE_ID: int
+USERNAME: string
+MANAGER: string
+)
